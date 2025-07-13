@@ -1,0 +1,155 @@
+.gradient-background {
+  background: linear-gradient(300deg, #2b3035,   #2b3035, #212529);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+  
+}
+.textstyle {
+  color: whitesmoke; 
+}
+.circular-img {
+    width: 350px;
+    height: 350px;
+    border-radius: 30%;
+    object-fit: cover;
+     
+  }
+
+.boldonse-regular {
+  font-family: "Boldonse", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
+
+
+ 
+.search-container {
+      position: relative;
+      display: inline-block;
+    }
+.search-dropdown {
+      display: none;
+      position: absolute;
+      background-color: white;
+      min-width: 280px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+      border-radius: 0.375rem;
+      margin-top: 5px;
+    }
+.show {
+      display: block;
+    }
+    
+
+.ideas-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+.idea-card {
+      border: 1px solid #dee2e6;
+      border-radius: 8px;
+      padding: 15px;
+      transition: transform 0.2s;
+      
+    }
+.idea-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    }
+.idea-category {
+      display: inline-block;
+      padding: 3px 8px;
+      border-radius: 20px;
+      font-size: 0.8rem;
+      margin-bottom: 10px;
+    }
+.no-results {
+      text-align: center;
+      padding: 40px;
+      grid-column: 1 / -1;
+    }
+
+
+.idea-card {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+
+.idea-card:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+.hero-gradient {
+  background: linear-gradient(
+    135deg,
+    #1e6d4e,       /* Deep teal-green */
+    #2a7d46,       /* Emerald */
+    #3cb371,       /* Brand green */
+    #4bc8a8,       /* Aqua-teal */
+    #7fd1c0        /* Soft seafoam */
+  );
+  background-size: 200% 200%;
+  animation: gradient-pulse 12s ease infinite;
+  color: white;
+  text-shadow: 0 1px 3px rgba(0,30,20,0.3);
+}
+
+@keyframes gradient-pulse {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+.feature-icon {
+      background-color: #e8f5e9;
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 1rem;
+    }
+.leaf-icon {
+      color: #2e8b57;
+      font-size: 1.75rem;
+    }
+.pricing-card .card-header {
+      background-color: #2e8b57;
+      color: white;
+    }
+
+.roundness {
+        border-radius: 50%;
+    }
+
+    
